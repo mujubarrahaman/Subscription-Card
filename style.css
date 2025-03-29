@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.title{
+    background-color: pink;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    padding: 20px;
+}
+.section__one{
+    background-color: black;
+    color: white;
+    height: 290px;
+    width: 200px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.price{
+    padding: 10px;
+    
+}
+
+h2{
+    margin-top: 10px;
+}
+.section__one__details{
+    border: solid white 2px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: start;
+    
+}
+
+
